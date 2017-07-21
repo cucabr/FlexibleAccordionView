@@ -1,9 +1,6 @@
 # FlexibleAccordionView
 
-[![CI Status](http://img.shields.io/travis/andreaugusto_sjc/FlexibleAccordionView.svg?style=flat)](https://travis-ci.org/andreaugusto_sjc/FlexibleAccordionView)
-[![Version](https://img.shields.io/cocoapods/v/FlexibleAccordionView.svg?style=flat)](http://cocoapods.org/pods/FlexibleAccordionView)
-[![License](https://img.shields.io/cocoapods/l/FlexibleAccordionView.svg?style=flat)](http://cocoapods.org/pods/FlexibleAccordionView)
-[![Platform](https://img.shields.io/cocoapods/p/FlexibleAccordionView.svg?style=flat)](http://cocoapods.org/pods/FlexibleAccordionView)
+A simple and fully flexible Accordion view component that allows you to insert views into the headers and content of the accordions.
 
 ## Example
 

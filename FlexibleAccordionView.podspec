@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexibleAccordionView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FlexibleAccordionView.'
+  s.summary          = 'A simple and fully flexible Accordion view component that allows you to insert views into the headers and content of the accordions.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+# FlexibleAccordionView
+
+A simple and fully flexible Accordion view component that allows you to insert views into the headers and content of the accordions.
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
                        DESC
 
-  s.homepage         = 'https://github.com/andreaugusto_sjc/FlexibleAccordionView'
+  s.homepage         = 'https://github.com/cucabr/FlexibleAccordionView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'andreaugusto_sjc' => 'andreaugustosjc@gmail.com' }

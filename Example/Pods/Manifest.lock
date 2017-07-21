@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FlexibleAccordionView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FlexibleAccordionView (from `../`)
+
+EXTERNAL SOURCES:
+  FlexibleAccordionView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FlexibleAccordionView: fff3911bc9f0716cc03015e3ea059d0dea5e16c3
+
+PODFILE CHECKSUM: 56c35e54b3c8634cb66ba7b9184352a8ebccdb81
+
+COCOAPODS: 1.2.1

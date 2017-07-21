@@ -1,0 +1,22 @@
+{
+  "name": "FlexibleAccordionView",
+  "version": "0.1.0",
+  "summary": "A short description of FlexibleAccordionView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/andreaugusto_sjc/FlexibleAccordionView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "andreaugusto_sjc": "andreaugustosjc@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/andreaugusto_sjc/FlexibleAccordionView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FlexibleAccordionView/Classes/**/*"
+}

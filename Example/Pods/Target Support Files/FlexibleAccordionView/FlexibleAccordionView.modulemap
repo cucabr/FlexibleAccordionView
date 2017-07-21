@@ -1,0 +1,6 @@
+framework module FlexibleAccordionView {
+  umbrella header "FlexibleAccordionView-umbrella.h"
+
+  export *
+  module * { export * }
+}
