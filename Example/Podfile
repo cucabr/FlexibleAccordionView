@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FlexibleAccordionView_Example' do
+  pod 'FlexibleAccordionView', :path => '../'
+
+  target 'FlexibleAccordionView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

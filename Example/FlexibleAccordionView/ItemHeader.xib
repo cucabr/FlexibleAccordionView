@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Fn3-fd-JWm" customClass="ItemHeader">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UAb-iI-VTj">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4N7-Lj-mc7">
+                            <rect key="frame" x="8" y="12" width="232" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="accordion_plus" translatesAutoresizingMaskIntoConstraints="NO" id="tom-ho-bgX">
+                            <rect key="frame" x="272" y="13" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="Pea-CF-zJO"/>
+                                <constraint firstAttribute="width" constant="20" id="S2a-Td-qYN"/>
+                            </constraints>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="b3h-Ut-JMu" appends="YES" id="12u-GF-PV2"/>
+                            </connections>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="tom-ho-bgX" firstAttribute="leading" secondItem="4N7-Lj-mc7" secondAttribute="trailing" constant="5" id="2Pq-L3-UTg"/>
+                        <constraint firstItem="tom-ho-bgX" firstAttribute="centerY" secondItem="UAb-iI-VTj" secondAttribute="centerY" id="IGQ-Db-ewU"/>
+                        <constraint firstAttribute="trailing" secondItem="tom-ho-bgX" secondAttribute="trailing" constant="8" id="JW9-fW-plu"/>
+                        <constraint firstItem="4N7-Lj-mc7" firstAttribute="centerY" secondItem="UAb-iI-VTj" secondAttribute="centerY" id="Jns-En-E89"/>
+                        <constraint firstItem="4N7-Lj-mc7" firstAttribute="centerY" secondItem="UAb-iI-VTj" secondAttribute="centerY" id="lIw-1S-gyn"/>
+                        <constraint firstItem="4N7-Lj-mc7" firstAttribute="leading" secondItem="UAb-iI-VTj" secondAttribute="leading" constant="8" id="x08-zO-a2g"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="TXv-fY-EMa" appends="YES" id="Taa-yF-ZK0"/>
+                    </connections>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UAb-iI-VTj" secondAttribute="trailing" id="ALg-Gm-yyw"/>
+                <constraint firstAttribute="bottom" secondItem="UAb-iI-VTj" secondAttribute="bottom" constant="5" id="FYh-G6-0Ca"/>
+                <constraint firstItem="UAb-iI-VTj" firstAttribute="leading" secondItem="Fn3-fd-JWm" secondAttribute="leading" id="shA-Gh-E8H"/>
+                <constraint firstItem="UAb-iI-VTj" firstAttribute="top" secondItem="Fn3-fd-JWm" secondAttribute="top" id="xsx-TX-GFB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="innerView" destination="UAb-iI-VTj" id="9TD-jd-Ijw"/>
+                <outlet property="openAndClose" destination="tom-ho-bgX" id="yga-ct-gCS"/>
+                <outlet property="title" destination="4N7-Lj-mc7" id="tq5-FV-C2C"/>
+            </connections>
+            <point key="canvasLocation" x="-58" y="-225"/>
+        </view>
+        <tapGestureRecognizer id="b3h-Ut-JMu" userLabel="Tap OpenClose Image">
+            <connections>
+                <action selector="touchDown:" destination="Fn3-fd-JWm" id="pVB-LZ-RZQ"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="TXv-fY-EMa" userLabel="Tap View">
+            <connections>
+                <action selector="touchDown:" destination="Fn3-fd-JWm" id="C8Z-Qf-gjW"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="accordion_plus" width="25" height="25"/>
+    </resources>
+</document>
