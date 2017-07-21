@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "AccordionView.h"
+#import "FlexibleAccordionView.h"
+#import "UIScrollView+AutoLayout.h"
 
 FOUNDATION_EXPORT double FlexibleAccordionViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char FlexibleAccordionViewVersionString[];

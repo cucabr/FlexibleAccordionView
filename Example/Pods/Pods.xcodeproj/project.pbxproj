@@ -11,8 +11,10 @@
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		0D1BE125567BC83DBFD7C24C30D8E95D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		1583CE71C4BF80F7447EB42D0137B1BD /* UIScrollView+AutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9DF36EF557E1EC5A27944467C58FFA /* UIScrollView+AutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		23AE0CD79F043D519A29D37B75E40005 /* FlexibleAccordionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EE40416CF98BB70C90FD8C018F0C8A /* FlexibleAccordionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B523E3D28AC84B802C101506487749 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		22687E10467844FB07441F16BEE29480 /* FlexibleAccordionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E64ADFB3EABBCDB0F3240BCE1D6B4B36 /* FlexibleAccordionView.m */; };
 		251FD594E1B31FA5C7D07DCDA7EBDAA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
@@ -20,10 +22,10 @@
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		71483E4059AA70A7FBF893F7267B3475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
+		879801FFF04459E5F96921AE0A74708B /* FlexibleAccordionView.h in Headers */ = {isa = PBXBuildFile; fileRef = A10638825E42436799947F405A9FC034 /* FlexibleAccordionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
@@ -33,16 +35,12 @@
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		CD4134244A433FAA45E473CF3CBAD6C4 /* FlexibleAccordionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAE3DBE053220A83142076C99B1AF8 /* FlexibleAccordionView-dummy.m */; };
 		D887414D988800BDA010AB3C61B254CE /* Pods-FlexibleAccordionView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD3CDDBAB09D9480693F9112CD5786E /* Pods-FlexibleAccordionView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		E0402F171F2232E900138740 /* FlexibleAccordionView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0402F131F2232E900138740 /* FlexibleAccordionView.h */; };
-		E0402F181F2232E900138740 /* FlexibleAccordionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0402F141F2232E900138740 /* FlexibleAccordionView.m */; };
-		E0402F191F2232E900138740 /* AccordionView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0402F151F2232E900138740 /* AccordionView.h */; };
-		E0402F1A1F2232E900138740 /* AccordionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0402F161F2232E900138740 /* AccordionView.m */; };
-		E0402F1E1F2232FC00138740 /* UIScrollView+AutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E0402F1C1F2232FC00138740 /* UIScrollView+AutoLayout.h */; };
-		E0402F1F1F2232FC00138740 /* UIScrollView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E0402F1D1F2232FC00138740 /* UIScrollView+AutoLayout.m */; };
 		F67E401967B584C4224050496802D143 /* Pods-FlexibleAccordionView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1345D00071F33D05772D8AF95A6D31B1 /* Pods-FlexibleAccordionView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDF42C2A4225D5C883C29475848A9B98 /* FlexibleAccordionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EE40416CF98BB70C90FD8C018F0C8A /* FlexibleAccordionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF71E460874598CE6D24FF0F0767885A /* FlexibleAccordionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAE3DBE053220A83142076C99B1AF8 /* FlexibleAccordionView-dummy.m */; };
+		FFA39855E39894B22A9C7B01D4F8F548 /* UIScrollView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A9F3D05ED5B1AD6010F8C0AABFBE2B /* UIScrollView+AutoLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +55,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6A89C9795A0C54F677826B12E3725D44;
+			remoteGlobalIDString = 4B9C25CBEA81AD5A0C1534DE554FA336;
 			remoteInfo = FlexibleAccordionView;
 		};
 /* End PBXContainerItemProxy section */
@@ -65,6 +63,7 @@
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		085EFE5AE11B4171C917BB32C6561220 /* Pods-FlexibleAccordionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleAccordionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0A9DF36EF557E1EC5A27944467C58FFA /* UIScrollView+AutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AutoLayout.h"; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1345D00071F33D05772D8AF95A6D31B1 /* Pods-FlexibleAccordionView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexibleAccordionView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -87,6 +86,7 @@
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7221B12C043EE12EBFE859A6B35AD032 /* Pods-FlexibleAccordionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleAccordionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		74A9F3D05ED5B1AD6010F8C0AABFBE2B /* UIScrollView+AutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AutoLayout.m"; sourceTree = "<group>"; };
 		7ADAE3DBE053220A83142076C99B1AF8 /* FlexibleAccordionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleAccordionView-dummy.m"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -96,6 +96,7 @@
 		8F318F13E0B3C1E5B8A1D555E30A017C /* Pods_FlexibleAccordionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexibleAccordionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96831B05E2D3715DE44D7ACCAA6902A1 /* Pods-FlexibleAccordionView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleAccordionView_Example-resources.sh"; sourceTree = "<group>"; };
+		A10638825E42436799947F405A9FC034 /* FlexibleAccordionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FlexibleAccordionView.h; sourceTree = "<group>"; };
 		A14F177B3BF0873900AB79E343A43C4B /* Pods-FlexibleAccordionView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexibleAccordionView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -114,13 +115,8 @@
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		D9B2D66E8B23B0F6A26D17762DC9D059 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		E0402F131F2232E900138740 /* FlexibleAccordionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexibleAccordionView.h; sourceTree = "<group>"; };
-		E0402F141F2232E900138740 /* FlexibleAccordionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexibleAccordionView.m; sourceTree = "<group>"; };
-		E0402F151F2232E900138740 /* AccordionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccordionView.h; sourceTree = "<group>"; };
-		E0402F161F2232E900138740 /* AccordionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccordionView.m; sourceTree = "<group>"; };
-		E0402F1C1F2232FC00138740 /* UIScrollView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AutoLayout.h"; sourceTree = "<group>"; };
-		E0402F1D1F2232FC00138740 /* UIScrollView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AutoLayout.m"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E64ADFB3EABBCDB0F3240BCE1D6B4B36 /* FlexibleAccordionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FlexibleAccordionView.m; sourceTree = "<group>"; };
 		E729043F9F9C6544545DCBA8E9613CE4 /* Pods-FlexibleAccordionView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexibleAccordionView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E78361D87F45C560266BA042EC6C373C /* FlexibleAccordionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleAccordionView.xcconfig; sourceTree = "<group>"; };
 		EE4D25A471812082D9B4BD8CEB6FE09C /* Pods-FlexibleAccordionView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleAccordionView_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -147,11 +143,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F85A9C662D32931D7E3F294A83F632B /* Frameworks */ = {
+		AC2AD224693AE7909C8BACD6A9794A35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71483E4059AA70A7FBF893F7267B3475 /* Foundation.framework in Frameworks */,
+				21B523E3D28AC84B802C101506487749 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +198,7 @@
 		1D881B8496B8C90ACAD07EEF145E9911 /* FlexibleAccordionView */ = {
 			isa = PBXGroup;
 			children = (
-				BB9F0964934E0C35F8168012D4883049 /* FlexibleAccordionView */,
+				350B2AD9077C469624731BC63DB3DD93 /* FlexibleAccordionView */,
 				ACF8C1BD8A2702330DDF31D8EBD49D6C /* Support Files */,
 			);
 			name = FlexibleAccordionView;
@@ -235,6 +231,25 @@
 			);
 			name = "Pods-FlexibleAccordionView_Example";
 			path = "Target Support Files/Pods-FlexibleAccordionView_Example";
+			sourceTree = "<group>";
+		};
+		350B2AD9077C469624731BC63DB3DD93 /* FlexibleAccordionView */ = {
+			isa = PBXGroup;
+			children = (
+				466D9AC7752E535D4C6231E193D7500F /* Classes */,
+			);
+			path = FlexibleAccordionView;
+			sourceTree = "<group>";
+		};
+		466D9AC7752E535D4C6231E193D7500F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A10638825E42436799947F405A9FC034 /* FlexibleAccordionView.h */,
+				E64ADFB3EABBCDB0F3240BCE1D6B4B36 /* FlexibleAccordionView.m */,
+				0A9DF36EF557E1EC5A27944467C58FFA /* UIScrollView+AutoLayout.h */,
+				74A9F3D05ED5B1AD6010F8C0AABFBE2B /* UIScrollView+AutoLayout.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		78B9D74A237A269276DB3A5A989F281B /* Development Pods */ = {
@@ -308,14 +323,6 @@
 			path = "Example/Pods/Target Support Files/FlexibleAccordionView";
 			sourceTree = "<group>";
 		};
-		BB9F0964934E0C35F8168012D4883049 /* FlexibleAccordionView */ = {
-			isa = PBXGroup;
-			children = (
-				D4EF6964A700B335F2650C000BB8DC12 /* Classes */,
-			);
-			path = FlexibleAccordionView;
-			sourceTree = "<group>";
-		};
 		BCAE63B086622224496E2BEEF6A55572 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,27 +330,6 @@
 				91A7FB3C0CE4CDA4187DAB472B1464D0 /* Pods-FlexibleAccordionView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D4EF6964A700B335F2650C000BB8DC12 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E0402F1B1F2232F400138740 /* Extensions */,
-				E0402F131F2232E900138740 /* FlexibleAccordionView.h */,
-				E0402F141F2232E900138740 /* FlexibleAccordionView.m */,
-				E0402F151F2232E900138740 /* AccordionView.h */,
-				E0402F161F2232E900138740 /* AccordionView.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		E0402F1B1F2232F400138740 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				E0402F1C1F2232FC00138740 /* UIScrollView+AutoLayout.h */,
-				E0402F1D1F2232FC00138740 /* UIScrollView+AutoLayout.m */,
-			);
-			name = Extensions;
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -386,6 +372,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CDEDF904F12FE8D64EEDE39CEAAA80E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF42C2A4225D5C883C29475848A9B98 /* FlexibleAccordionView-umbrella.h in Headers */,
+				879801FFF04459E5F96921AE0A74708B /* FlexibleAccordionView.h in Headers */,
+				1583CE71C4BF80F7447EB42D0137B1BD /* UIScrollView+AutoLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,21 +390,10 @@
 				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
 				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
 				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
-				E0402F191F2232E900138740 /* AccordionView.h in Headers */,
 				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
-				E0402F171F2232E900138740 /* FlexibleAccordionView.h in Headers */,
-				E0402F1E1F2232FC00138740 /* UIScrollView+AutoLayout.h in Headers */,
 				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
 				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
 				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA5EE51CFDF892BEAF84B53798DBAE7E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23AE0CD79F043D519A29D37B75E40005 /* FlexibleAccordionView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +443,23 @@
 			productReference = D9B2D66E8B23B0F6A26D17762DC9D059 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4B9C25CBEA81AD5A0C1534DE554FA336 /* FlexibleAccordionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DC3DA790C318D757AA570CA1D82D45 /* Build configuration list for PBXNativeTarget "FlexibleAccordionView" */;
+			buildPhases = (
+				92ED114360AC61E830A77E996B0F3ACB /* Sources */,
+				AC2AD224693AE7909C8BACD6A9794A35 /* Frameworks */,
+				8CDEDF904F12FE8D64EEDE39CEAAA80E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexibleAccordionView;
+			productName = FlexibleAccordionView;
+			productReference = CA05B42D6829282519416386B5595AF2 /* FlexibleAccordionView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		516BCA66F4AF1725CC44126716AAD0CC /* Pods-FlexibleAccordionView_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AE983BBCD3E7553885D68318ABCAF90 /* Build configuration list for PBXNativeTarget "Pods-FlexibleAccordionView_Tests" */;
@@ -474,23 +476,6 @@
 			name = "Pods-FlexibleAccordionView_Tests";
 			productName = "Pods-FlexibleAccordionView_Tests";
 			productReference = 2E2AE7670CF9599C8D92F781A7F556EA /* Pods_FlexibleAccordionView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6A89C9795A0C54F677826B12E3725D44 /* FlexibleAccordionView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A2990AD84E536674BA2C685063E287E4 /* Build configuration list for PBXNativeTarget "FlexibleAccordionView" */;
-			buildPhases = (
-				F0A091F24A00135D5D7AC3BB7195E6A1 /* Sources */,
-				7F85A9C662D32931D7E3F294A83F632B /* Frameworks */,
-				DA5EE51CFDF892BEAF84B53798DBAE7E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FlexibleAccordionView;
-			productName = FlexibleAccordionView;
-			productReference = CA05B42D6829282519416386B5595AF2 /* FlexibleAccordionView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -515,7 +500,7 @@
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				6A89C9795A0C54F677826B12E3725D44 /* FlexibleAccordionView */,
+				4B9C25CBEA81AD5A0C1534DE554FA336 /* FlexibleAccordionView */,
 				03339AE69EFC0E892F812AE527057039 /* Pods-FlexibleAccordionView_Example */,
 				516BCA66F4AF1725CC44126716AAD0CC /* Pods-FlexibleAccordionView_Tests */,
 			);
@@ -539,30 +524,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92ED114360AC61E830A77E996B0F3ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF71E460874598CE6D24FF0F0767885A /* FlexibleAccordionView-dummy.m in Sources */,
+				22687E10467844FB07441F16BEE29480 /* FlexibleAccordionView.m in Sources */,
+				FFA39855E39894B22A9C7B01D4F8F548 /* UIScrollView+AutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
-				E0402F1A1F2232E900138740 /* AccordionView.m in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
-				E0402F181F2232E900138740 /* FlexibleAccordionView.m in Sources */,
-				E0402F1F1F2232FC00138740 /* UIScrollView+AutoLayout.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0A091F24A00135D5D7AC3BB7195E6A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD4134244A433FAA45E473CF3CBAD6C4 /* FlexibleAccordionView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,7 +556,7 @@
 		F112EB7E164ACD001B989665CA5FFFE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlexibleAccordionView;
-			target = 6A89C9795A0C54F677826B12E3725D44 /* FlexibleAccordionView */;
+			target = 4B9C25CBEA81AD5A0C1534DE554FA336 /* FlexibleAccordionView */;
 			targetProxy = CF031CE0AEDE4507951781D109D9AD0F /* PBXContainerItemProxy */;
 		};
 		F4AE99F94F444D78075808EF14C5656D /* PBXTargetDependency */ = {
@@ -707,7 +691,7 @@
 			};
 			name = Debug;
 		};
-		573F6EE93D2D53BCCC0AAB0825CA93DC /* Release */ = {
+		68CC2D2955F6908E79E6331628C5FB97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E78361D87F45C560266BA042EC6C373C /* FlexibleAccordionView.xcconfig */;
 			buildSettings = {
@@ -738,38 +722,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		64D5A7DD6BF8367B8A502C441BAC46B5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E78361D87F45C560266BA042EC6C373C /* FlexibleAccordionView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FlexibleAccordionView/FlexibleAccordionView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FlexibleAccordionView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FlexibleAccordionView/FlexibleAccordionView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FlexibleAccordionView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -814,6 +766,38 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		804E0FDB76831A71885280D7C7AB62B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78361D87F45C560266BA042EC6C373C /* FlexibleAccordionView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FlexibleAccordionView/FlexibleAccordionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexibleAccordionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlexibleAccordionView/FlexibleAccordionView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FlexibleAccordionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		AFCE488EF3D6FA09DE9DC0C2916574CD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -961,6 +945,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		16DC3DA790C318D757AA570CA1D82D45 /* Build configuration list for PBXNativeTarget "FlexibleAccordionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E0FDB76831A71885280D7C7AB62B1 /* Debug */,
+				68CC2D2955F6908E79E6331628C5FB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -984,15 +977,6 @@
 			buildConfigurations = (
 				350EB910F6D917BC1BD7BCEF0D18B59A /* Debug */,
 				EDC03A4D6278B7950AAB93FD42005E0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A2990AD84E536674BA2C685063E287E4 /* Build configuration list for PBXNativeTarget "FlexibleAccordionView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				64D5A7DD6BF8367B8A502C441BAC46B5 /* Debug */,
-				573F6EE93D2D53BCCC0AAB0825CA93DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

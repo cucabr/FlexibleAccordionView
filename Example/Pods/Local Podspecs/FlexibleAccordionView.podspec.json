@@ -1,9 +1,9 @@
 {
   "name": "FlexibleAccordionView",
   "version": "0.1.0",
-  "summary": "A short description of FlexibleAccordionView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/andreaugusto_sjc/FlexibleAccordionView",
+  "summary": "A simple and fully flexible Accordion view component that allows you to insert views into the headers and content of the accordions.",
+  "description": "# FlexibleAccordionView\n\nA simple and fully flexible Accordion view component that allows you to insert views into the headers and content of the accordions.\n\n## Example\n\nTo run the example project, clone the repo, and run `pod install` from the Example directory first.",
+  "homepage": "https://github.com/cucabr/FlexibleAccordionView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"

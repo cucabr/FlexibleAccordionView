@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  FlexibleAccordionView: fff3911bc9f0716cc03015e3ea059d0dea5e16c3
+  FlexibleAccordionView: dd660faa0128ce88aa1a70f6bbfaf7d712ff4c5f
 
 PODFILE CHECKSUM: 56c35e54b3c8634cb66ba7b9184352a8ebccdb81
 
