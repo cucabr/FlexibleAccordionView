@@ -273,7 +273,7 @@
 
 #pragma button click
 
-- (void)buttonClick:(id)sender {
+- (void)buttonClick:(id)sender completion:(ButtonClickCompletionBlock)completion {
     NSIndexSet *aSelectionIndexes =  [NSIndexSet indexSetWithIndex:[sender tag]];
     
     __block BOOL openOrClosed = false;
@@ -290,7 +290,10 @@
         openOrClosed = [selectionIndexes containsIndex:idx];
         
         if (!openOrClosed) {
+            completion(@"opened");
             [cleanIndexes addIndex:idx];
+        } else {
+            completion(@"closed");
         }
     }];
     

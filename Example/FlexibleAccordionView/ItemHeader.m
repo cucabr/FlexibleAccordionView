@@ -48,28 +48,28 @@
 }
 
 - (IBAction)touchDown:(id)sender {
-    [((FlexibleAccordionView*)self.superview.superview) buttonClick:self];
+    [((FlexibleAccordionView*)self.superview.superview) buttonClick:self completion:^(NSString *openOrClosed) {
+        NSLog(@"here");
+        
+        if([openOrClosed isEqualToString:@"opened"]) {
+            innerView.backgroundColor = borderColorValue;
+            [title setTextColor:[UIColor whiteColor]];
+            
+            [openAndClose setImage:[UIImage imageNamed:@"accordion_minus"]];
+            openAndClose.image = [openAndClose.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+            [openAndClose setTintColor:[UIColor whiteColor]];
+        } else {
+            innerView.backgroundColor =  [UIColor whiteColor];
+            [title setTextColor:borderColorValue];
+            
+            
+            [openAndClose setImage:[UIImage imageNamed:@"accordion_plus"]];
+            openAndClose.image = [openAndClose.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+            [openAndClose setTintColor:borderColorValue];
+        }
+    }];
+     
+     
 }
-
-/*
-- (void)accordion:(FlexibleAccordionView *)accordion didChangeSelection:(NSIndexSet *)selection openOrClosed:(BOOL)openOrClosed
-{
-    if(openOrClosed) {
-        innerView.backgroundColor =  borderColorValue;
-        [title setTextColor:[UIColor whiteColor]];
-        
-        [openAndClose setImage:[UIImage imageNamed:@"accordion_minus"]];
-        openAndClose.image = [openAndClose.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-        [openAndClose setTintColor:[UIColor whiteColor]];
-    } else {
-        innerView.backgroundColor =  [UIColor whiteColor];
-        [title setTextColor:borderColorValue];
-        
-        
-        [openAndClose setImage:[UIImage imageNamed:@"accordion_plus"]];
-        openAndClose.image = [openAndClose.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-        [openAndClose setTintColor:borderColorValue];
-    }
-}*/
 
 @end

@@ -23,6 +23,8 @@
     NSMutableArray *originalSizes;
 }
 
+typedef void (^ButtonClickCompletionBlock)(NSString *openOrClosed);
+    
 @property (nonatomic, strong) UIScrollView *scrollView;
 
 @property (nonatomic, strong) NSIndexSet *selectionIndexes;
@@ -34,6 +36,6 @@
 @property (nonatomic, strong) id <FlexibleAccordionViewDelegate> delegate;
 
 - (unsigned long)addHeader:(UIView *)aHeader withView:(id)aView;
-- (void)buttonClick:(id)sender;
+- (void)buttonClick:(id)sender completion:(ButtonClickCompletionBlock)completion;
 
 @end
