@@ -1,12 +1,10 @@
 # FlexibleAccordionView
 
-A simple and fully flexible Accordion view component that allows you to insert views into the headers and content of the accordions.
+A simple and fully flexible Accordion view component that allows you to insert views into the headers and content of the accordions. Written in Objective-C.
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+To run the example project, clone the repo, and run `pod install` from the Example directory first. Written in Objective-C.
 
 ## Installation
 
