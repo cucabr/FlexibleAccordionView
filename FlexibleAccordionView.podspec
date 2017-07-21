@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlexibleAccordionView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A simple and fully flexible Accordion view component that allows you to insert views into the headers and content of the accordions.'
 
 # This description is used to generate tags and improve search results.
