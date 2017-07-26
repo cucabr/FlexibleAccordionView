@@ -59,7 +59,7 @@
     //self.allowsEmptySelection = YES;
 }
 
-- (unsigned long)addHeader:(UIView *)aHeader withView:(id)aView {
+- (id)addHeader:(UIView *)aHeader withView:(id)aView {
     if ((aHeader != nil) && (aView != nil)) {
         [headers addObject:aHeader];
         [views addObject:aView];
@@ -88,10 +88,12 @@
             [self setSelectedIndex:0];
         }
         
+        return aHeader;
+        
         [self setNeedsLayout];
     }
     
-    return 0;
+    return nil;
 }
 
 - (void)removeHeaderAtIndex:(NSInteger)index {

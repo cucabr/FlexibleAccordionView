@@ -35,7 +35,7 @@ typedef void (^ButtonClickCompletionBlock)(NSString *openOrClosed);
 @property (nonatomic, assign) UIViewAnimationCurve animationCurve;
 @property (nonatomic, strong) id <FlexibleAccordionViewDelegate> delegate;
 
-- (unsigned long)addHeader:(UIView *)aHeader withView:(id)aView;
+- (id)addHeader:(UIView *)aHeader withView:(id)aView;
 - (void)buttonClick:(id)sender completion:(ButtonClickCompletionBlock)completion;
 
 @end
